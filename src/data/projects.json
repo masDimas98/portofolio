@@ -1,0 +1,225 @@
+{
+  "hero": {
+    "name": "Dimas Putra",
+    "role": "Backend Engineer",
+    "summary": "Backend Engineer focused on reliable APIs, clean architecture, and scalable systems. Comfortable with Node.js, TypeScript, PostgreSQL, Redis, and modern DevOps practices.",
+    "availability": "Open for Backend / API opportunities",
+    "photo": "/dimas_profile.jpg",
+    "ctaPrimary": {
+      "label": "View Projects",
+      "href": "#projects"
+    },
+    "ctaSecondary": {
+      "label": "Get in Touch",
+      "href": "#contact"
+    }
+  },
+  "about": {
+    "values": {
+      "title": "What I Value",
+      "items": [
+        {
+          "title": "Code Quality",
+          "description": "Writing maintainable, testable code that stands the test of time",
+          "dotColorClass": "bg-emerald-400"
+        },
+        {
+          "title": "Observability",
+          "description": "Building systems that are easy to monitor, debug, and understand",
+          "dotColorClass": "bg-sky-400"
+        },
+        {
+          "title": "Collaboration",
+          "description": "Working closely with teams to deliver reliable, scalable solutions",
+          "dotColorClass": "bg-purple-400"
+        }
+      ]
+    },
+    "approach": {
+      "title": "My Approach",
+      "paragraphs": [
+        "I believe in building backend systems that are not just functional, but also maintainable and scalable. Every API endpoint, database query, and service integration is designed with performance and reliability in mind. I focus on creating clean abstractions, comprehensive documentation, and robust error handling to ensure systems can evolve gracefully.",
+        "When tackling complex problems, I start with understanding the requirements, then design the architecture before writing code. This approach helps me deliver solutions that are both efficient and easy to extend."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Interested in working together?",
+    "description": "Open to full-time, part-time, or freelance roles in Backend Engineering.",
+    "links": [
+      {
+        "id": "email",
+        "label": "Email",
+        "href": "mailto:email@dimas.dev",
+        "variant": "primary"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com",
+        "variant": "secondary"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "href": "https://github.com",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "backend",
+      "category": "Backend",
+      "items": ["Node.js", "TypeScript", "Express", "NestJS", "Fastify"]
+    },
+    {
+      "id": "database",
+      "category": "Database",
+      "items": ["PostgreSQL", "MySQL", "MongoDB", "Prisma/ORM", "Redis"]
+    },
+    {
+      "id": "architecture",
+      "category": "Architecture",
+      "items": ["RESTful API", "Microservices", "Event-driven", "Clean Architecture"]
+    },
+    {
+      "id": "reliability",
+      "category": "Reliability",
+      "items": ["Logging", "Tracing", "Metrics", "Rate limiting", "Circuit Breaker"]
+    },
+    {
+      "id": "testing",
+      "category": "Testing",
+      "items": ["Unit Test", "Integration Test", "E2E Test", "Postman/Newman"]
+    },
+    {
+      "id": "devops",
+      "category": "DevOps",
+      "items": ["Docker", "CI/CD", "GitHub Actions", "Kubernetes", "Monitoring"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "backend-engineer-1",
+      "company": "Tech Company Inc.",
+      "role": "Backend Engineer",
+      "location": "Remote / Jakarta, Indonesia",
+      "startAt": "2022-01",
+      "endAt": "2024-12",
+      "isCurrent": true,
+      "description": "Built and maintained REST APIs for internal and public applications with JWT/OAuth authentication, pagination, filtering, and comprehensive OpenAPI/Swagger documentation.",
+      "technologies": ["Node.js", "TypeScript", "Express", "PostgreSQL", "Redis", "Docker"],
+      "highlights": [
+        "Designed scalable API architecture serving 100K+ daily requests",
+        "Implemented authentication and authorization systems with JWT and OAuth2",
+        "Set up CI/CD pipelines reducing deployment time by 60%",
+        "Improved API response time by 40% through query optimization and caching"
+      ]
+    },
+    {
+      "id": "backend-engineer-2",
+      "company": "StartupXYZ",
+      "role": "Junior Backend Engineer",
+      "location": "Bandung, Indonesia",
+      "startAt": "2020-06",
+      "endAt": "2021-12",
+      "isCurrent": false,
+      "description": "Developed microservices and RESTful APIs focusing on clean code, scalable folder structure, comprehensive testing, and automated deployments.",
+      "technologies": ["Node.js", "TypeScript", "NestJS", "MongoDB", "RabbitMQ"],
+      "highlights": [
+        "Built notification microservice handling 50K+ messages per day",
+        "Established testing standards achieving 80%+ code coverage",
+        "Created reusable middleware and utilities reducing code duplication"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "payment-api",
+      "name": "High-throughput Payment API",
+      "role": "Backend Engineer",
+      "description": "Designed and implemented a layered REST API for payment processing with validation middleware and end-to-end observability.",
+      "year": "2024",
+      "images": [
+        { "src": "/projects/payment-api/01.svg", "alt": "Payment API – API overview" },
+        { "src": "/projects/payment-api/02.svg", "alt": "Payment API – Architecture diagram" },
+        { "src": "/projects/payment-api/03.svg", "alt": "Payment API – Monitoring dashboard" }
+      ],
+      "techStack": [
+        "Node.js",
+        "TypeScript",
+        "Express",
+        "PostgreSQL",
+        "Redis",
+        "JWT",
+        "Docker"
+      ],
+      "metrics": {
+        "latencyMs": 120,
+        "throughputRps": 350
+      },
+      "links": {
+        "repo": "https://github.com/username/payment-api"
+      }
+    },
+    {
+      "id": "notification-service",
+      "name": "Distributed Notification Service",
+      "role": "Backend Engineer",
+      "description": "Built a notification microservice (email & push) with retry mechanisms, dead-letter queues, and environment-based configuration.",
+      "year": "2023",
+      "images": [
+        { "src": "/projects/notification-service/01.svg", "alt": "Notification Service – Workflow" },
+        { "src": "/projects/notification-service/02.svg", "alt": "Notification Service – Queue + retry" },
+        { "src": "/projects/notification-service/03.svg", "alt": "Notification Service – Delivery metrics" }
+      ],
+      "techStack": [
+        "Node.js",
+        "TypeScript",
+        "NestJS",
+        "RabbitMQ",
+        "MongoDB",
+        "Prometheus",
+        "Grafana"
+      ],
+      "metrics": {
+        "latencyMs": 200,
+        "throughputRps": 500
+      },
+      "links": {
+        "repo": "https://github.com/username/notification-service"
+      }
+    },
+    {
+      "id": "auth-service",
+      "name": "Centralized Auth Service",
+      "role": "Backend Engineer",
+      "description": "Centralized authentication and authorization service with JWT, refresh tokens, RBAC, and multi-client integrations.",
+      "year": "2022",
+      "images": [
+        { "src": "/projects/auth-service/01.svg", "alt": "Auth Service – Auth flow" },
+        { "src": "/projects/auth-service/02.svg", "alt": "Auth Service – RBAC model" },
+        { "src": "/projects/auth-service/03.svg", "alt": "Auth Service – Token lifecycle" }
+      ],
+      "techStack": [
+        "Node.js",
+        "TypeScript",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "OpenAPI"
+      ],
+      "metrics": {
+        "latencyMs": 90,
+        "throughputRps": 250
+      },
+      "links": {
+        "repo": "https://github.com/username/auth-service"
+      }
+    }
+  ]
+}
+
+

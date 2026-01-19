@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1168" height="688" rx="28" fill="#071225" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="150" fill="#e2e8f0" font-size="54" font-family="ui-sans-serif, system-ui">Auth Service</text>
+  <text x="96" y="210" fill="#94a3b8" font-size="24" font-family="ui-sans-serif, system-ui">RBAC model</text>
+  <g stroke="#334155" stroke-width="2" fill="#0b1224">
+    <rect x="120" y="300" width="360" height="170" rx="18"/>
+    <rect x="520" y="300" width="360" height="170" rx="18"/>
+    <rect x="920" y="300" width="260" height="170" rx="18"/>
+    <rect x="120" y="520" width="1060" height="160" rx="18"/>
+  </g>
+  <g fill="#cbd5e1" font-size="18" font-family="ui-monospace, SFMono-Regular">
+    <text x="150" y="350">Users</text>
+    <text x="550" y="350">Roles</text>
+    <text x="950" y="350">Permissions</text>
+    <text x="150" y="580">Assignments: user_roles + role_permissions</text>
+  </g>
+  <g stroke="#60a5fa" stroke-width="3" fill="none">
+    <path d="M480 385 H520"/>
+    <path d="M880 385 H920"/>
+  </g>
+  <g fill="#60a5fa">
+    <circle cx="300" cy="430" r="6"/>
+    <circle cx="700" cy="430" r="6"/>
+    <circle cx="1040" cy="430" r="6"/>
+  </g>
+</svg>

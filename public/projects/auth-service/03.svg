@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1168" height="688" rx="28" fill="#071225" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="150" fill="#e2e8f0" font-size="54" font-family="ui-sans-serif, system-ui">Auth Service</text>
+  <text x="96" y="210" fill="#94a3b8" font-size="24" font-family="ui-sans-serif, system-ui">Token lifecycle</text>
+  <g stroke="#334155" stroke-width="2" fill="#0b1224">
+    <rect x="120" y="310" width="300" height="120" rx="18"/>
+    <rect x="470" y="310" width="300" height="120" rx="18"/>
+    <rect x="820" y="310" width="300" height="120" rx="18"/>
+    <rect x="120" y="490" width="1000" height="180" rx="18"/>
+  </g>
+  <g fill="#cbd5e1" font-size="18" font-family="ui-monospace, SFMono-Regular">
+    <text x="150" y="372">Login</text>
+    <text x="500" y="372">Access Token</text>
+    <text x="850" y="372">Refresh Token</text>
+    <text x="150" y="552">Rotate refresh + revoke on logout</text>
+  </g>
+  <g stroke="#f59e0b" stroke-width="3" fill="none">
+    <path d="M420 370 H470"/>
+    <path d="M770 370 H820"/>
+  </g>
+</svg>

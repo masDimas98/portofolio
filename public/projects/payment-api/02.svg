@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1168" height="688" rx="28" fill="#071225" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="150" fill="#e2e8f0" font-size="54" font-family="ui-sans-serif, system-ui">Payment API</text>
+  <text x="96" y="210" fill="#94a3b8" font-size="24" font-family="ui-sans-serif, system-ui">Architecture</text>
+  <g stroke="#334155" stroke-width="2" fill="#0b1224">
+    <rect x="120" y="300" width="300" height="120" rx="18"/>
+    <rect x="490" y="300" width="300" height="120" rx="18"/>
+    <rect x="860" y="300" width="300" height="120" rx="18"/>
+    <rect x="490" y="470" width="300" height="120" rx="18"/>
+  </g>
+  <g fill="#cbd5e1" font-size="18" font-family="ui-monospace, SFMono-Regular">
+    <text x="150" y="366">API Gateway</text>
+    <text x="520" y="366">Payments Service</text>
+    <text x="900" y="366">PostgreSQL</text>
+    <text x="520" y="536">Redis Cache</text>
+  </g>
+  <g stroke="#34d399" stroke-width="3" fill="none">
+    <path d="M420 360 H490"/>
+    <path d="M790 360 H860"/>
+    <path d="M640 420 V470"/>
+  </g>
+</svg>

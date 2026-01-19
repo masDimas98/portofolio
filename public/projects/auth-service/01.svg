@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1168" height="688" rx="28" fill="#071225" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="150" fill="#e2e8f0" font-size="54" font-family="ui-sans-serif, system-ui">Auth Service</text>
+  <text x="96" y="210" fill="#94a3b8" font-size="24" font-family="ui-sans-serif, system-ui">Authentication flow</text>
+  <g stroke="#334155" stroke-width="2" fill="#0b1224">
+    <rect x="120" y="320" width="260" height="110" rx="18"/>
+    <rect x="430" y="320" width="300" height="110" rx="18"/>
+    <rect x="780" y="320" width="300" height="110" rx="18"/>
+    <rect x="1130" y="320" width="70" height="110" rx="18"/>
+    <rect x="430" y="480" width="650" height="170" rx="18"/>
+  </g>
+  <g fill="#cbd5e1" font-size="18" font-family="ui-monospace, SFMono-Regular">
+    <text x="150" y="380">Client</text>
+    <text x="460" y="380">Auth API</text>
+    <text x="810" y="380">Users DB</text>
+    <text x="1140" y="380">JWT</text>
+    <text x="460" y="540">Token store / refresh sessions</text>
+  </g>
+  <g stroke="#34d399" stroke-width="3" fill="none">
+    <path d="M380 375 H430"/>
+    <path d="M730 375 H780"/>
+    <path d="M1080 375 H1130"/>
+    <path d="M680 430 V480"/>
+  </g>
+</svg>
