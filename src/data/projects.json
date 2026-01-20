@@ -2,7 +2,7 @@
   "hero": {
     "name": "Dimas Putra",
     "role": "Backend Engineer",
-    "summary": "Backend Engineer focused on reliable APIs, clean architecture, and scalable systems. Comfortable with Node.js, TypeScript, PostgreSQL, Redis, and modern DevOps practices.",
+    "summary": "Backend Engineer focused on reliable APIs, clean architecture, and scalable systems. Comfortable with Golang, PostgreSQL, and Redis.",
     "availability": "Open for Backend / API opportunities",
     "photo": "/dimas_profile.jpg",
     "ctaPrimary": {
@@ -50,19 +50,19 @@
       {
         "id": "email",
         "label": "Email",
-        "href": "mailto:email@dimas.dev",
+        "href": "mailto:dimaspratamav@gmail.com",
         "variant": "primary"
       },
       {
         "id": "linkedin",
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com",
+        "href": "https://id.linkedin.com/in/dimas-putra-perdana",
         "variant": "secondary"
       },
       {
         "id": "github",
         "label": "GitHub",
-        "href": "https://github.com",
+        "href": "https://github.com/masDimas98",
         "variant": "secondary"
       }
     ]
@@ -71,12 +71,12 @@
     {
       "id": "backend",
       "category": "Backend",
-      "items": ["Node.js", "TypeScript", "Express", "NestJS", "Fastify"]
+      "items": ["Node.js", "TypeScript", "Express", "Golang","Java"]
     },
     {
       "id": "database",
       "category": "Database",
-      "items": ["PostgreSQL", "MySQL", "MongoDB", "Prisma/ORM", "Redis"]
+      "items": ["PostgreSQL", "MySQL", "MongoDB", "Gorm/ORM", "Redis","elasticsearch"]
     },
     {
       "id": "architecture",
@@ -91,42 +91,39 @@
     {
       "id": "testing",
       "category": "Testing",
-      "items": ["Unit Test", "Integration Test", "E2E Test", "Postman/Newman"]
-    },
-    {
-      "id": "devops",
-      "category": "DevOps",
-      "items": ["Docker", "CI/CD", "GitHub Actions", "Kubernetes", "Monitoring"]
+      "items": ["Unit Test", "Integration Test", "Postman/Newman"]
     }
   ],
   "experiences": [
     {
-      "id": "backend-engineer-1",
-      "company": "Tech Company Inc.",
-      "role": "Backend Engineer",
-      "location": "Remote / Jakarta, Indonesia",
-      "startAt": "2022-01",
-      "endAt": "2024-12",
+      "id": "backend-Developer-1",
+      "company": "PT Varnion Technology Semesta",
+      "role": "Backend Developer",
+      "location": "Jakarta, Indonesia",
+      "startAt": "2025-06",
+      "endAt": "present",
       "isCurrent": true,
       "description": "Built and maintained REST APIs for internal and public applications with JWT/OAuth authentication, pagination, filtering, and comprehensive OpenAPI/Swagger documentation.",
-      "technologies": ["Node.js", "TypeScript", "Express", "PostgreSQL", "Redis", "Docker"],
+      "technologies": ["Golang", "Gin-Gonic", "Elasticsearch", "PostgreSQL", "Redis", "Docker", "MongoDB"],
       "highlights": [
-        "Designed scalable API architecture serving 100K+ daily requests",
+        "Designed scalable API architecture serving 10K+ daily requests",
         "Implemented authentication and authorization systems with JWT and OAuth2",
-        "Set up CI/CD pipelines reducing deployment time by 60%",
-        "Improved API response time by 40% through query optimization and caching"
+        "Improved API response time by 40% through query optimization and caching",
+        "Implemented secure payment gateway integration",
+        "Integrated Single Sign-On (SSO)",
+        "Designed and optimized database schemas"
       ]
     },
     {
-      "id": "backend-engineer-2",
-      "company": "StartupXYZ",
-      "role": "Junior Backend Engineer",
-      "location": "Bandung, Indonesia",
-      "startAt": "2020-06",
-      "endAt": "2021-12",
+      "id": "backend-developer-2",
+      "company": "PT Aneka Dasuib Jaya",
+      "role": "Backend Developer",
+      "location": "Tanggerang, Indonesia",
+      "startAt": "2024-12",
+      "endAt": "2025-05",
       "isCurrent": false,
       "description": "Developed microservices and RESTful APIs focusing on clean code, scalable folder structure, comprehensive testing, and automated deployments.",
-      "technologies": ["Node.js", "TypeScript", "NestJS", "MongoDB", "RabbitMQ"],
+      "technologies": ["PHP", "Laravel", "MySQL", "MongoDB", "RabbitMQ", "Redis"],
       "highlights": [
         "Built notification microservice handling 50K+ messages per day",
         "Established testing standards achieving 80%+ code coverage",
@@ -136,52 +133,90 @@
   ],
   "projects": [
     {
-      "id": "payment-api",
-      "name": "High-throughput Payment API",
-      "role": "Backend Engineer",
-      "description": "Designed and implemented a layered REST API for payment processing with validation middleware and end-to-end observability.",
-      "year": "2024",
+      "id": "Nexus",
+      "name": "Nexus",
+      "role": "Backend Developer",
+      "description": "A service management application that maintains payment records, monitors active internet connections, and tracks user usage status, enabling efficient billing, real-time monitoring, and operational control",
+      "year": "2026",
       "images": [
-        { "src": "/projects/payment-api/01.svg", "alt": "Payment API – API overview" },
-        { "src": "/projects/payment-api/02.svg", "alt": "Payment API – Architecture diagram" },
-        { "src": "/projects/payment-api/03.svg", "alt": "Payment API – Monitoring dashboard" }
       ],
       "techStack": [
-        "Node.js",
-        "TypeScript",
-        "Express",
+        "Golang",
+        "Gin-Gonic",
         "PostgreSQL",
+        "MongoDB",
         "Redis",
+        "Elasticsearch",
         "JWT",
         "Docker"
       ],
       "metrics": {
-        "latencyMs": 120,
-        "throughputRps": 350
-      },
+        "latencyMs": 24,
+        "throughputRps": 500
+      }
+    },
+    {
+      "id": "Fiberzone",
+      "name": "Fiberzone",
+      "role": "Backend Developer",
+      "description": "A user-centric application designed to enable the purchase and management of internet packages and user accounts, offering subscription control, payment tracking, and real-time account management.",
+      "year": "2026",
+      "images": [
+      ],
+      "techStack": [
+        "Golang",
+        "Gin-Gonic",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "JWT",
+        "Docker"
+      ],
+      "metrics": {
+        "latencyMs": 24,
+        "throughputRps": 500
+      }
+    },
+    {
+      "id": "dokdigpas",
+      "name": "Digital Documentation Pascasarjana",
+      "role": "Fullstack Developer",
+      "description": "A digital documentation app designed to create, manage, and securely store documents online, enabling easy access, version control, and collaboration across users and devices.",
+      "year": "2024",
+      "images": [
+        { "src": "/projects/dokdigpas/dashboard.png", "alt": "dokdigpas– dashboard" },
+        { "src": "/projects/dokdigpas/dokumentasi buku.png", "alt": "dokdigpas– Book documentation" },
+        { "src": "/projects/dokdigpas/login.png", "alt": "dokdigpas– login" }
+      ],
+      "techStack": [
+        "PHP",
+        "Laravel",
+        "Mysql",
+        "JWT",
+        "Docker"
+      ],
       "links": {
         "repo": "https://github.com/username/payment-api"
       }
     },
     {
-      "id": "notification-service",
-      "name": "Distributed Notification Service",
-      "role": "Backend Engineer",
-      "description": "Built a notification microservice (email & push) with retry mechanisms, dead-letter queues, and environment-based configuration.",
+      "id": "purp-omax",
+      "name": "Purp Omax",
+      "role": "Fullstack Developer",
+      "description": "A decision-making system that evaluates Key Performance Indicators (KPIs) using the OMAX (Objective Matrix) algorithm to objectively measure performance and support data-driven strategic decisions.",
       "year": "2023",
       "images": [
-        { "src": "/projects/notification-service/01.svg", "alt": "Notification Service – Workflow" },
-        { "src": "/projects/notification-service/02.svg", "alt": "Notification Service – Queue + retry" },
-        { "src": "/projects/notification-service/03.svg", "alt": "Notification Service – Delivery metrics" }
+        { "src": "/projects/purp/dashboard.png", "alt": "PURP OMAX – Dashboard" },
+        { "src": "/projects/purp/login.png", "alt": "PURP OMAX – Login" },
+        { "src": "/projects/purp/report kegiatan.png", "alt": "PURP OMAX – Report Kegiatan" }
       ],
       "techStack": [
-        "Node.js",
-        "TypeScript",
-        "NestJS",
-        "RabbitMQ",
-        "MongoDB",
-        "Prometheus",
-        "Grafana"
+        "PHP",
+        "Laravel",
+        "Mysql",
+        "JWT",
+        "Docker"
       ],
       "metrics": {
         "latencyMs": 200,
@@ -189,34 +224,6 @@
       },
       "links": {
         "repo": "https://github.com/username/notification-service"
-      }
-    },
-    {
-      "id": "auth-service",
-      "name": "Centralized Auth Service",
-      "role": "Backend Engineer",
-      "description": "Centralized authentication and authorization service with JWT, refresh tokens, RBAC, and multi-client integrations.",
-      "year": "2022",
-      "images": [
-        { "src": "/projects/auth-service/01.svg", "alt": "Auth Service – Auth flow" },
-        { "src": "/projects/auth-service/02.svg", "alt": "Auth Service – RBAC model" },
-        { "src": "/projects/auth-service/03.svg", "alt": "Auth Service – Token lifecycle" }
-      ],
-      "techStack": [
-        "Node.js",
-        "TypeScript",
-        "Express",
-        "Prisma",
-        "PostgreSQL",
-        "Redis",
-        "OpenAPI"
-      ],
-      "metrics": {
-        "latencyMs": 90,
-        "throughputRps": 250
-      },
-      "links": {
-        "repo": "https://github.com/username/auth-service"
       }
     }
   ]
